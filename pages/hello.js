@@ -1,3 +1,2 @@
-
-prompt("Привет! Как тебя зовут?)");
-alert("Как дела, " + prompt.value + " ?");
+let answer = prompt('Привет, как тебя зовут?');
+prompt('Как твои дела, ' + answer + ' ?');
